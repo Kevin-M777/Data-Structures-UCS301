@@ -104,7 +104,7 @@ int * delete(int *ptr,int s,int idx){
             else break;
             i++;
         }
-        return ptr;// i think this line shouldnt be there
+        return ptr;
         int *temp=(int *)realloc(ptr,(s-1)*sizeof(int));
         ptr=temp;
         return ptr;
