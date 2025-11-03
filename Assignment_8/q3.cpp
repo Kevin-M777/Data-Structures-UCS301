@@ -154,5 +154,8 @@ int main(){
     tree.deletion(search_node); //deletes node with value 10
     tree.inorder(root);//after deletion
 
+    std::cout<<tree.min_depth()<<std::endl;
+    std::cout<<tree.max_depth()<<std::endl;
+
     return 0;
 }
